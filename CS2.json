@@ -1,0 +1,2091 @@
+{ "intents" : [
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "How are you",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up"
+    ],
+    "responses": [
+      "Hi there, how can I help?"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "c++",
+    "patterns": [
+      "what is c++",
+      "plus plus",
+      "c++",
+      "cpp",
+      "define c++ programming",
+      "explain c++ programming",
+      "c++ language",
+      "what is c++ programming language"
+    ],
+    "responses": [
+      "C++ is an object-oriented programming (OOP) language that is viewed by many as the best language for creating large-scale applications. C++ is a superset of the C language"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "constructor",
+    "patterns": [
+      "what is a constructor",
+      "define constructor",
+      "constructor in cpp"
+    ],
+    "responses": [
+      "A constructor in C++ is a special method that is automatically called when an object of a class is created."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "access_control",
+    "patterns": [
+      "what is access control",
+      "private",
+      "public",
+      "access"
+    ],
+    "responses": [
+      "a C++ mechanism for prohibiting or granting access to individual members of a class. "
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "allocation",
+    "patterns": [
+      "what is allocation",
+      "define allocation",
+      "allocate memory"
+    ],
+    "responses": [
+      "the process of giving memory space to an object."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "ANSI",
+    "patterns": [
+      "what is ANSI",
+      "define ANSI"
+    ],
+    "responses": [
+      "acronym for American National Standards Institute, a standards body currently standardizing C++."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "protected class",
+    "patterns": [
+      "What is a protected member?",
+      "What does being a protected member of a class mean",
+      "What does being a protected member of a class entail",
+      "What does being a protected member function mean",
+      "define protected members"
+    ],
+    "responses": [
+      "The protected class members and functions can be used inside its class, but not by other classes directly. However, friend functions and classes can access these data members and functions."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "this pointer",
+    "patterns": [
+      "What is the this pointer?",
+      "What does the this pointer do",
+      "What is the function of the this pointer",
+      "what is a this pointer"
+    ],
+    "responses": [
+      "this is how the members of a class access other members of the class."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "Overflow error definition",
+    "patterns": [
+      "What is an overflow error?",
+      "define overflow error",
+      "What does an overflow error mean?",
+      "What are overflow errors"
+    ],
+    "responses": [
+      "An overflow error is a situation where a result of a computation is too large for the destination type."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "cya",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Have a Good day"
+    ],
+    "responses": [
+      "Sad to see you go :("
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "compiler definition",
+    "patterns": [
+      "What is a C++ compiler?",
+      "What is Visual Studio?",
+      "What is a compiler?",
+      "compiler",
+      "define compiler"
+    ],
+    "responses": [
+      "C++ is designed to be a compiled language, meaning that it is generally translated into machine language that can be understood directly by the system, making the generated program highly efficient. For that, a set of tools are needed, known as the development toolchain, whose core are a compiler and its linker."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "polymorphism definition",
+    "patterns": [
+      "what is polymorphism",
+      "polymorphism",
+      "define polymorphism"
+    ],
+    "responses": [
+      " Polymorphism is a feature of OOPs that allows the object to behave differently in different conditions. In C++ we have two types of polymorphism: \n1) Compile time Polymorphism: This is also known as static (or early) binding. \n2) Runtime Polymorphism: This is also known as dynamic (or late) binding."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "classes definition",
+    "patterns": [
+      "What is a class?",
+      "what are classes?",
+      "define c++ classes",
+      "define classes in c++",
+      "define classes"
+    ],
+    "responses": [
+      "A class in C++ is a user-defined type or data structure declared with keyword class that has data and functions (also called member variables and member functions) as its members whose access is governed by the three access specifiers private, protected or public. By default, access to members of a C++ class is private."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "functions definition",
+    "patterns": [
+      "what is a function in c++?",
+      "what is a c++ function?",
+      "define c++ function",
+      "define functions",
+      "define functions in c++"
+    ],
+    "responses": [
+      "A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. Functions are used to perform certain actions, and they are important for reusing code"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "inheritance definition",
+    "patterns": [
+      "What is inheritance?",
+      "what is the use of inheritance",
+      "describe inheritance of classes?",
+      "define inheritance",
+      "inheritance in c++"
+    ],
+    "responses": [
+      "The capability of a class to derive properties and characteristics from another class is called Inheritance. Inheritance is one of the most important features of Object-Oriented Programming. "
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "header definition",
+    "patterns": [
+      "What is a header file?",
+      "what is .h file?",
+      "Define header file of classes.",
+      "define header files"
+    ],
+    "responses": [
+      "In C and C++ Language, a header file is a file with extension .h which contains C/C++ function declarations and macro definitions to be shared between several source files. In simple terms, its a library file that contains various functions, macros and classes that you can use during the development of your program."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "datatypes definition",
+    "patterns": [
+      "What are datatypes?",
+      "datatype",
+      "How many datatypes are there?",
+      "how is data stored in c++?",
+      "define datatypes"
+    ],
+    "responses": [
+      "All variables use data-type during declaration to restrict the type of data to be stored. Therefore, we can say that data types are used to tell the variables the type of data it can store. Whenever a variable is defined in C++, the compiler allocates some memory for that variable based on the data-type with which it is declared. Example: int, char, float, bool etc. "
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "top_down design",
+    "patterns": [
+      "What is a top down design?",
+      "topdown design",
+      " Explain stepwise refinement.",
+      " What is meant by a top down design?"
+    ],
+    "responses": [
+      "A top-down design, also called stepwise refinement, is the decomposition of a system (a problem) into smaller parts in order to comprehend its compositional sub-systems. In top-down design, a system's overview is designed, specifying, yet not detailing any first-level subsystems"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "flow_chart",
+    "patterns": [
+      "Define a flow chart",
+      "flowchart",
+      " What is the purpose of a flow chart?",
+      " What is meant by a flow chart?",
+      "what is flowchart",
+      "flowchart"
+    ],
+    "responses": [
+      "A flowchart is simply a graphical representation of steps. It shows steps in sequential order and is widely used in presenting the flow of algorithms, workflow or processes. Typically, a flowchart shows the steps as boxes of various kinds, and their order by connecting them with arrows.\n"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "pseudo_code",
+    "patterns": [
+      "Define pseudocode",
+      "What is pseudocode?",
+      " What is meant  by pseudocode?"
+    ],
+    "responses": [
+      "A notation resembling a simplified programming language, used in program design.\n"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "sequence_struct",
+    "patterns": [
+      "What is a sequence structure in programming",
+      "Define a sequence structure",
+      " What is meant by a sequence structure"
+    ],
+    "responses": [
+      "In a sequence structure, an action, or event, leads to the next ordered action in a predetermined order specified in the code.\n"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "conditional_def",
+    "patterns": [
+      "What is a conditional structure in programming",
+      "Define a selection structure",
+      "What is meant by a selection structure?"
+    ],
+    "responses": [
+      "Also known as a conditional structure, a selection structure is a programming feature that performs different processes based on whether a boolean condition is true or false. Selection structures use relational operators to test conditions.\n"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "loop_def",
+    "patterns": [
+      "What is a loop",
+      "Define a repetition",
+      "What is meant by an iteration"
+    ],
+    "responses": [
+      "A loop (iteration) is a programming structure that repeats a sequence of instructions until a specific condition is met. Programmers use loops to cycle through values, add sums of numbers, repeat functions, and many other things.\n"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "relational_def",
+    "patterns": [
+      "What is a relational operator",
+      "Define relational operators"
+    ],
+    "responses": [
+      "Relational operators are used to compare values of two expressions"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "array_declaration",
+    "patterns": [
+      "How to declare an array? ",
+      " How to initialize an array? ",
+      " How to define an array?",
+      "define the method to declare an array for me",
+      "array declaration",
+      "array declaration"
+    ],
+    "responses": [
+      "An array named example of integer data type containing 5 elements would be declared as: = int example[5] = {1,2,3,4,5};"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "array_definition",
+    "patterns": [
+      "What is an array?",
+      " How do you define an array?",
+      " Describe an array?",
+      " Define one dimensional array?"
+    ],
+    "responses": [
+      "An array which stores a fixed-size sequential collection of elements of the same data type."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "elements",
+    "patterns": [
+      "What are elements? ",
+      " What are elements in an array?",
+      " What is an array made of? "
+    ],
+    "responses": [
+      "An array contains a sequence of values or variables known as elements, which are of the same data type."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "java",
+    "patterns": [
+      "what is java",
+      "java",
+      "javascript",
+      "define javascript",
+      "in java",
+      "what is a in java",
+      "explain java programming",
+      "java language",
+      "what is java programming language"
+    ],
+    "responses": [
+      "My function is to explain terminology related to c++ only."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "python",
+    "patterns": [
+      "what is python",
+      "python",
+      "python",
+      "define python",
+      "in python",
+      "what is a in python",
+      "explain python programming",
+      "python language",
+      "what is python programming language"
+    ],
+    "responses": [
+      "Please ask me questions only related to c++"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "offsets",
+    "patterns": [
+      "What are offsets? ",
+      " What is an offset? ",
+      " Describe offsets in arrays? "
+    ],
+    "responses": [
+      "Offset describes the position of an element in an array. It always starts from 0"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "array_size",
+    "patterns": [
+      "What is size of an array?",
+      " How do we define array size? ",
+      " Is size array constant?  ",
+      " What is maximum size of an array?  ",
+      " How many elements can be stored in an array?"
+    ],
+    "responses": [
+      "The size of an array must be specified in the declaration statement, using either a value/variable within brackets or by an initialization list."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "sorting",
+    "patterns": [
+      "What is sorting",
+      "Describe sorting",
+      "define sorting"
+    ],
+    "responses": [
+      "Sorting is the process in which elements of the data structure are rearranged in a specific order"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "algorithm",
+    "patterns": [
+      "What is sorting algorithm",
+      " How can we sort an array",
+      " How can we sort a vector",
+      "algorithm",
+      "how do we find elements in an array"
+    ],
+    "responses": [
+      "A data structure e.g. array can be sorted by a sorting algorithm e.g. selection sort"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "selection_sort",
+    "patterns": [
+      "Define selection sort",
+      "Describe selection sort",
+      " What is selection sort",
+      " How can we sort an array in ascending",
+      " How can we sort an array in descending?"
+    ],
+    "responses": [
+      "The selection sort algorithm begins by finding the position of the minimum value and exchanging the minimum with the value in the first position in the array. This process continues until reaching the next-to-last element, which is compared to the last element."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "search_algorithms",
+    "patterns": [
+      "What are search algorithms",
+      " How to search for a value in an array",
+      " How to find an element in an array"
+    ],
+    "responses": [
+      "Searching algorithms are used to find a specific element in data structure e.g. sequential search, binary search."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "sequential",
+    "patterns": [
+      "What is a sequential search",
+      "How to find an element in a sequence in an array",
+      "sequential search"
+    ],
+    "responses": [
+      "Sequential search finds the required element by checking each element of array in a sequence, from first to last."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "binary_search",
+    "patterns": [
+      "What is binary search",
+      " How to search in an ordered array",
+      " How to search faster in an array"
+    ],
+    "responses": [
+      "Binary search is an efficient way of searching ordered arrays. It determines the middle value and checks if required element is bigger or smaller, then limits its size accordingly. It continues until required element is found."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "char_arr",
+    "patterns": [
+      "Define C-style string",
+      " Describe char string",
+      " What is a character string",
+      " What is a C-style array"
+    ],
+    "responses": [
+      "A character array is an array in which the individual elements are stored as characters and the last element is a null character '\\0'"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "diff_char_arr",
+    "patterns": [
+      "What is the difference between C-style array and normal array",
+      "Differentiate between normal array and character string",
+      "difference between normal array and character string"
+    ],
+    "responses": [
+      "In a character array or C-style string, elements stored are only of character data type and last element is a null character."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "offset_exceed",
+    "patterns": [
+      "Can we assign elements more than size of array",
+      "Can we exceed offset of array",
+      "exceed offset of an array"
+    ],
+    "responses": [
+      "If the input data has more characters than the maximum size of array, the input operator will assign values beyond the bounds of the array, and an error will occur."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "<cstring>",
+    "patterns": [
+      "What are C-string functions",
+      "List functions for character array",
+      "What is <cstring> library"
+    ],
+    "responses": [
+      "The Standard C++ library contains numerous functions for working with C-style strings, such as strlen() or strcpy(). The header file <cstring> must be included for these functions to be used in a program."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "strlen()",
+    "patterns": [
+      "What is strlen function",
+      "How to find length of C-style string",
+      "How to return length of character array",
+      "Define strlen()"
+    ],
+    "responses": [
+      "A strlen(s) function returns the length of the string s."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "strcpy()",
+    "patterns": [
+      "What is strcpy function",
+      "How to copy C-style strings",
+      "How to copy one character array to another",
+      "Define strcpy()",
+      "strcpy()",
+      "strcpy() function"
+    ],
+    "responses": [
+      "A strcpy(s,t) function copies string t to string s."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "strcat()",
+    "patterns": [
+      "What is strcat function",
+      "strcat()",
+      "strcat() function",
+      " Define strcat()",
+      " How to join C-style string",
+      "How to concatenate one character array to another",
+      "strcat()"
+    ],
+    "responses": [
+      "A strcat(s,t) function concatenates string t to the end of string s."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "strcmp()",
+    "patterns": [
+      "What is strcmp function",
+      " Define strcmp()",
+      "How to compare C-style strings",
+      "How to compare ASCII values of character arrays",
+      "strcmp()",
+      "strcmp() function"
+    ],
+    "responses": [
+      "A strcmp(s,t) function compares ASCII values of string s to string t in an character-by-character comparison. Returns a negative value if s<t , zero if s=t, positive value if s>t"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "string",
+    "patterns": [
+      "What is the string class?",
+      "Describe string data type",
+      "How to add string library",
+      "what is a string",
+      "define string",
+      "string"
+    ],
+    "responses": [
+      "String class stores the characters as a sequence of bytes with a functionality of allowing access to single byte character. String class can be used by adding #include <string> header."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "size()",
+    "patterns": [
+      "What is size function",
+      "Define size()",
+      "How to get the size of an array",
+      "size()"
+    ],
+    "responses": [
+      "size() returns the length of the calling string/array."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "empty()",
+    "patterns": [
+      "What is empty function",
+      "Define empty()",
+      "How to know if array is empty or not",
+      "empty()"
+    ],
+    "responses": [
+      "It returns true if the calling string contains no characters, returns false otherwise."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "substr()",
+    "patterns": [
+      "What is substr function",
+      "Define substr()",
+      "How to edit an array",
+      "How to get a specific part of an array"
+    ],
+    "responses": [
+      "substr(int start, int len) returns the substring of length len, beginning at start of the calling string."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "c_str()",
+    "patterns": [
+      "What is c_str function",
+      "Define c_str()",
+      " How to add a string filename",
+      "c_str()"
+    ],
+    "responses": [
+      "C_str() returns the equivalent C-style string."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "logical_operator",
+    "patterns": [
+      "What is a logical operator",
+      "Define a logical operation"
+    ],
+    "responses": [
+      "A logical operation is a special symbol or word that connects two or more phrases of information. It is most often used to test whether a certain relationship between the phrases is true or false.\n"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "AND_operator",
+    "patterns": [
+      "What is the And operator",
+      "What is the logic behind the And operator",
+      "How does the And operator return a true value"
+    ],
+    "responses": [
+      "The AND operator (denoted by && in c++) is a Boolean operator used to perform a logical conjunction on two expressions Expression 1 And Experession 2. AND operator returns a value of TRUE if both its operands are TRUE, and FALSE otherwise.\n"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "or_operator",
+    "patterns": [
+      "What is the or operator",
+      "What is the logic behind the or operator",
+      "How does the or operator return a true value"
+    ],
+    "responses": [
+      "An OR operator ( denoted by || in c++) is a Boolean operator that returns a value of TRUE if either (or both) of its operands is TRUE."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "not_operator",
+    "patterns": [
+      "What is the not operator",
+      "What is the logic behind the not operator",
+      "How does the not operator return a true value"
+    ],
+    "responses": [
+      "The NOT operator (denoted by ! in c++ )is a Boolean operator that returns TRUE or 1 when the operand is FALSE or 0, and returns FALSE or 0 when the operand is TRUE or 1."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "truth_table",
+    "patterns": [
+      "What is a truth table",
+      "Define a truth table",
+      "What is meant by a truth table"
+    ],
+    "responses": [
+      "A truth table is a diagram in rows and columns showing how the truth or falsity of a proposition varies with that of its components."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "short_circuiting",
+    "patterns": [
+      "What is short circuiting",
+      "Explain short circuiting",
+      "Define short circuiting",
+      "short circuiting"
+    ],
+    "responses": [
+      "When expressions with logical operators are executed, C++ will only evaluate as muchof the expression as necessary to evaluate it. This is known as short circuiting. For example, if A is false, then the expression A && B is also false, and there is no need to evaluate B.\n"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "if_standalone",
+    "patterns": [
+      "What is if statement",
+      "How does stand alone if statement work"
+    ],
+    "responses": [
+      "The if statement evaluates the test expression inside the parenthesis (). If the test expression is evaluated to true, statements inside the body of if are executed. If the test expression is evaluated to false, statements inside the body of if are not executed."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "if_else",
+    "patterns": [
+      "What is if else statement",
+      "How does if else statement work"
+    ],
+    "responses": [
+      "If the test expression is evaluated to true, statements inside the body of if are executed and  statements inside the body of else are skipped from execution. If the test expression is evaluated to false, statements inside the body of else are executed and statements inside the body of if are skipped from execution."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "nested_if_else",
+    "patterns": [
+      "What is a nested if structure",
+      "How does a nested if structure work"
+    ],
+    "responses": [
+      "Nesting means using one if-else construct within another one. The if...else statement executes two different codes depending upon whether the test expression is true or false. Sometimes, a choice has to be made from more than 2 possibilities. The nested if...else statement allows you to check for multiple test expressions and execute different codes for more than two conditions."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "conditional_operator",
+    "patterns": [
+      "What is a conditional operator",
+      "How does a conditional operator work",
+      "Why is a conditional operator used"
+    ],
+    "responses": [
+      "C++ allows a conditional operator (?) to be used in place of a simple if/else statement. This conditional operator is a ternary operator because it has three arguments: a condition, a statement to perform if the condition is true, and a statement to perform if the condition is false. The operation is indicated with a question mark following the condition and with a colon between the two statements."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "switch",
+    "patterns": [
+      "What is a switch statement",
+      "How does a switch statement work",
+      "What is the fuction of a switch statement"
+    ],
+    "responses": [
+      "A switch statement tests the value of a variable and compares it with multiple cases. Once the case match is found, a block of statements associated with that particular case is executed. Each case in a block of a switch has a different name/number which is referred to as an identifier. The value provided by the user is compared with all the cases inside the switch block until the match is found. If a case match is found, then the default statement is executed, and the control goes out of the switch block."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "break_statement",
+    "patterns": [
+      "What is the purpose of a break statement",
+      "Why is a break statement used inside a case statement"
+    ],
+    "responses": [
+      "Break statements are used when you want your program flow to come out of the switch body. Whenever a break statement is encountered in the switch body, the execution flow would directly come out of the switch, ignoring rest of the cases. This is why you must end each case block with the break statement."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "operator_overload",
+    "patterns": [
+      "What is operator overloading",
+      "Define operator overloading",
+      "Explain operator overloading"
+    ],
+    "responses": [
+      "Defining operators for programmer-defined types is operator overloading. It provides a new definition for an existing operator and allows a programmer-defined type to use operators in the same way that built-in types do. Operators can only be overloaded for programmer-defined types. You cannot overload operators for built-in types."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "controlling_exp",
+    "patterns": [
+      "What is a controlling expression in an if structure",
+      "Define a controlling statement"
+    ],
+    "responses": [
+      "The expression in an if statement that tests for a condition, which if returns true then the code block following this expression is executed, otherwise the code block following the else statement is executed."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "test_data",
+    "patterns": [
+      "What is a test data",
+      "What is the purpose of test data",
+      "How is test data used"
+    ],
+    "responses": [
+      "Test data is data which has been specifically identified for use in testing a program path. Some data may be used in a confirmatory way, typically to verify that a given set of input to a given function produces some expected result"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "comment",
+    "patterns": [
+      "what is a comment",
+      "define comment",
+      "describe comment"
+    ],
+    "responses": [
+      "A comment is an explanation or description of the source code of the program. It helps a developer explain logic of the code and improves program readability."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "how_to_comment",
+    "patterns": [
+      "how to write a comment",
+      "how to use comment",
+      "application of comment"
+    ],
+    "responses": [
+      "Comments may begin with the characters /* and end with the characters */ or, for single-line comments, may begin with the characters // and terminate at the end of the current line."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "preprocessor_directive",
+    "patterns": [
+      "what is a preprocessor directive",
+      "define preprocessor directive",
+      "describe preprocessor directive"
+    ],
+    "responses": [
+      "Preprocessor directives give instructions to the preprocessor that are performed before directives the program is compiled."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "#include",
+    "patterns": [
+      "what is a include",
+      "define include",
+      "describe include"
+    ],
+    "responses": [
+      "The #include preprocessor directive causes the compiler to replace that line with the entire text of the contents of the named source file."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "iostream",
+    "patterns": [
+      "what is a iostream",
+      "define iostream",
+      "describe iostream"
+    ],
+    "responses": [
+      "iostream provides basic input and output services for C++ programs."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "cmath",
+    "patterns": [
+      "what is a cmath",
+      "define cmath",
+      "describe cmath"
+    ],
+    "responses": [
+      "The cmath header file declares a set of functions to perform mathematical operations such as: sqrt() to calculate square root, log() to find natural logarithm of a number etc."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "namespace",
+    "patterns": [
+      "what is a namespace",
+      "define namespace",
+      "describe namespace"
+    ],
+    "responses": [
+      "A namespace is a declarative region that provides a scope to the identifiers (names of the types, function, variables etc) inside it."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "using_directive",
+    "patterns": [
+      "what is a using directive",
+      "define using directive",
+      "describe using directive"
+    ],
+    "responses": [
+      "The using directive tells the compiler to use the library filenames declared in namespace std."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "code_block",
+    "patterns": [
+      "what is a code block",
+      "define code block",
+      "describe code block"
+    ],
+    "responses": [
+      "collection of a set of programming statements enclosed by curly brackets"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "main",
+    "patterns": [
+      "what is a main function",
+      "define main function",
+      "describe main function"
+    ],
+    "responses": [
+      "The main function is the entry point of any C program. It is the point at which execution of program is started."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "constant",
+    "patterns": [
+      "what is a constant",
+      "define constant",
+      "describe constant"
+    ],
+    "responses": [
+      "defines a fixed quantity that does not change during the running of a program"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "variable",
+    "patterns": [
+      "what is a variable",
+      "define variable",
+      "describe variable",
+      "what are literals",
+      "literal"
+    ],
+    "responses": [
+      "defines a quantity that may change during the running of a program"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "memory_snapshot",
+    "patterns": [
+      "what is a memory snapshot",
+      "define memory snapshot",
+      "describe memory snapshot"
+    ],
+    "responses": [
+      ". A memory snapshot shows the contents of a memory location at a specified point in the execution of the program."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "data_type",
+    "patterns": [
+      "what is a datatype",
+      "define datatype",
+      "describe datatype"
+    ],
+    "responses": [
+      "The data storage format that a variable can store a data to perform a specific operation."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "short",
+    "patterns": [
+      "what is short",
+      "define short",
+      "describe short"
+    ],
+    "responses": [
+      "Type short int (or simply short) is an integral type that is larger than or equal to the size of type char, and shorter than or equal to the size of type int."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "int",
+    "patterns": [
+      "what is int",
+      "define int",
+      "describe int"
+    ],
+    "responses": [
+      "Int, short for 'integer,', is a fundamental variable type built into the compiler and used to define numeric variables holding whole numbers."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "long",
+    "patterns": [
+      "what is long",
+      "define long",
+      "describe long"
+    ],
+    "responses": [
+      "Type long (or long int) is an integral type that is larger than or equal to the size of type int."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "float",
+    "patterns": [
+      "what is float",
+      "define float",
+      "describe float"
+    ],
+    "responses": [
+      "Float is a shortened term for 'floating point.' By definition, it's a fundamental data type built into the compiler that's used to define numeric values with floating decimal points."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "double",
+    "patterns": [
+      "what is double",
+      "define double",
+      "describe double"
+    ],
+    "responses": [
+      "The double is a fundamental data type built into the compiler and used to define numeric variables holding numbers with decimal points. "
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "long_double",
+    "patterns": [
+      "what is long double",
+      "define long double",
+      "describe long double"
+    ],
+    "responses": [
+      "The type long double provides at least as much precision as double. It is a floating point data type that stores decimal values."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "bool",
+    "patterns": [
+      "what is bool",
+      "define bool",
+      "describe bool",
+      "what is boolean",
+      "define boolean",
+      "describe boolean"
+    ],
+    "responses": [
+      "The Boolean data type is used to declare a variable whose value will be set as true (1) or false (0)."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "char",
+    "patterns": [
+      "what is char",
+      "define char",
+      "describe char"
+    ],
+    "responses": [
+      "The char data type stores character data in a fixed-length field."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "string",
+    "patterns": [
+      "what is string",
+      "define string",
+      "describe string"
+    ],
+    "responses": [
+      "A string is a variable that stores a sequence of letters or other characters, such as 'Hello', or 'May 10th is my birthday!'"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "class",
+    "patterns": [
+      "what is class",
+      "define class",
+      "describe class"
+    ],
+    "responses": [
+      "A class in C++ is the building block, that leads to Object-Oriented programming. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "class_implementation",
+    "patterns": [
+      "what is class implementation",
+      "define class implementation",
+      "describe class implementation"
+    ],
+    "responses": [
+      "An implementation file is used in C++ programming when creating a class definition to split the interface from the implementation."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "class_declaration",
+    "patterns": [
+      "what is class declaration",
+      "define class declaration",
+      "describe class declaration"
+    ],
+    "responses": [
+      "The header file that would declare all the member functions and data methods that the class has."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "truncated_result",
+    "patterns": [
+      "what is truncated result",
+      "define truncated result",
+      "describe truncated result"
+    ],
+    "responses": [
+      "A result in which all values after the decimal point are discarded (not to be confused with rounding)"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "overflow",
+    "patterns": [
+      "what is overflow",
+      "define overflow",
+      "describe overflow",
+      "overflow error"
+    ],
+    "responses": [
+      "Overflow is a phenomenon where operations on 2 numbers exceeds the maximum value the data type can have."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "underflow",
+    "patterns": [
+      "what is underflow",
+      "define undeflow",
+      "describe underflow",
+      "underflow error"
+    ],
+    "responses": [
+      "The term arithmetic underflow is a condition in a computer program where the result of a calculation is a number of smaller absolute value than the computer can actually represent in memory on its central processing unit "
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "cin",
+    "patterns": [
+      "what is cin",
+      "define cin",
+      "describe cin"
+    ],
+    "responses": [
+      "The cin object in C++ is an object of class istream. It is used to accept the input from the standard input device i.e. keyboard."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "cout",
+    "patterns": [
+      "what is cout",
+      "define cout",
+      "describe cout"
+    ],
+    "responses": [
+      "The cout object in C++ is an object of class ostream. It is used to display the output to the standard output device i.e. monitor."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "syntax",
+    "patterns": [
+      "what is syntax",
+      "define syntax",
+      "describe syntax"
+    ],
+    "responses": [
+      "The arrangement of words and phrases to create well-formed sentences in a programming language."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "parse_error",
+    "patterns": [
+      "what is parse error",
+      "define parse error",
+      "describe parse error"
+    ],
+    "responses": [
+      "A parse-time error occurs when the syntax of the program is incorrect."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "syntax_error",
+    "patterns": [
+      "what is syntax error",
+      "define syntax error",
+      "describe syntax error"
+    ],
+    "responses": [
+      "The error displayed when the syntax of a program is incorrect"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "execution_error",
+    "patterns": [
+      "what is execution error",
+      "define execution error",
+      "describe execution error"
+    ],
+    "responses": [
+      "Execution errors only become evident during run time. An execution error occurs when a program is asked to do something that it cannot, resulting in a 'crash'."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "runtime_error",
+    "patterns": [
+      "what is runtime error",
+      "define runtime error",
+      "describe runtime error"
+    ],
+    "responses": [
+      " Runtime errors indicate bugs in the program or problems that the designers had anticipated but could do nothing about. For example, running out of memorywill often cause a runtime error."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "logical_error",
+    "patterns": [
+      "what is logical error",
+      "define logical error",
+      "describe logical error"
+    ],
+    "responses": [
+      "A logic error (or logical error) is a mistake in a program's source code that results in incorrect or unexpected behavior."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "while_loop",
+    "patterns": [
+      "What does a while loop do",
+      "How does a while loop work",
+      "What is a while loop"
+    ],
+    "responses": [
+      " The while loop evaluates the boolean test expression. If the test expression is true, codes inside the body of while loop is evaluated. Then, the test expression is evaluated again. This process goes on until the test expression is false, after which the loop is terminated."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "do_while",
+    "patterns": [
+      "What does a do while loop do? How does a do while loop work",
+      "What is a do while loop"
+    ],
+    "responses": [
+      "The codes inside the body of loop is executed at least once. Then, the boolean test expression is checked. If it is true, the body of loop is executed again. This process continues until the test expression becomes false. When the test expression is false, do...while loop is terminated."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "for_loop",
+    "patterns": [
+      "What does a for loop do",
+      "How does a for loop work",
+      "What is a for loop"
+    ],
+    "responses": [
+      "The initialization statement is executed only once at the beginning. Then, the boolean test expression is evaluated. If it is false, for loop is terminated. But if it is true, codes inside body of for loop is executed and modification expression is updated. Again, the test expression is evaluated and this process repeats until the test expression is false."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "modify_expression",
+    "patterns": [
+      "What is a modification expression in for loops",
+      "What is an update expression in for loops",
+      "Explain the purpose of a modification expression used in for loops"
+    ],
+    "responses": [
+      "An expression, often i++ or something similar, that increments or decrements the control variable used in the boolean test expression of the for loop is called the update or modification expression"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "difference_between_while_and_do_while_loop",
+    "patterns": [
+      "What is the difference between while and do while loop"
+    ],
+    "responses": [
+      "For the while loop, the boolean test expression is placed before the loop body, whereas for the do while loop, it is placed after the body. The do while loop executes the loop body at least once, whereas the while loop may not execute the loop body even once."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "break_statement",
+    "patterns": [
+      " Explain the break statement",
+      "What is the break statement? What does a break command do"
+    ],
+    "responses": [
+      "The break statement terminates a loop",
+      " Execution continues with the first statement following the loop"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "continue_statement",
+    "patterns": [
+      "Explain the continue statement",
+      "What is the continue statement",
+      "What does a continue command do"
+    ],
+    "responses": [
+      " The continue statement forces the next iteration of the loop, skipping any remaining statements in the loop."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "counter_controlled_loop",
+    "patterns": [
+      "What is counter controlled loop",
+      "How does a counter controlled loop work"
+    ],
+    "responses": [
+      "This type of loop may be used for reading input data. If the number of data values is known before the data are entered. For loops are strictly counter controlled loops. Do while and while loops could be coded as counter controlled."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "sentinel_controlled_loop",
+    "patterns": [
+      "What is sentinel controlled loop",
+      "How does a sentinel controlled loop work"
+    ],
+    "responses": [
+      "This type of loop may be used for reading input data. If a special data value exists that can be used to indicate the end of data, and consequently the loop."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "end_of_data_controlled_loop",
+    "patterns": [
+      "What is end of data controlled loop",
+      "How does an end of data controlled loop work"
+    ],
+    "responses": [
+      "This is  most flexible for reading input data. No prior knowledge of the number of data values is required. No sentinel value is required. It terminates after end of file is reached."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "type_of _loops",
+    "patterns": [
+      "What kind of loops are for, do while and while loops"
+    ],
+    "responses": [
+      "For loops are strictly counter controlled loops. Do while and while loops could be coded as counter controlled, however, they can also operate as sentinel and end of data controlled loops. "
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "infinite_loop",
+    "patterns": [
+      "What is an infinite loop",
+      "How to terminate an infinite loop"
+    ],
+    "responses": [
+      "An infinite loop is one in which the loop condition is always true. Selective execution of a break statement or aborting/exiting the program are methods of terminating an infinite loop."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " modularity",
+    "patterns": [
+      "Define what modularity is",
+      "Explain modularity",
+      "Define modularity",
+      "What is modularity"
+    ],
+    "responses": [
+      "Modularity means the written program can be spited up in to modules by using classes and each class can be considered as a module. Modularity is the degree to which a systemâ€™s components are made up of relatively independent components or parts which can be combined."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "module_needs",
+    "patterns": [
+      "Why are modules required",
+      "Why are modules needed",
+      "What do modules do"
+    ],
+    "responses": [
+      "To maintain simplicity and readability in longer and more complex problem solutions."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "abstraction",
+    "patterns": [
+      "Abstraction",
+      "What is abstraction",
+      "Define abstraction"
+    ],
+    "responses": [
+      "Abstraction means displaying only essential information and hiding the details. Data abstraction refers to providing only essential information about the data to the outside world, hiding the background details or implementation."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "modularity_advantage",
+    "patterns": [
+      "what are the advantages of modularity",
+      "advantages of modularity"
+    ],
+    "responses": [
+      " A module can be written and tested separately, thus module development can be done in parallel for large projects. A module is a small part of the solution, and thus testing it separately is easier. A module is written once and tested, then it can be used many times within a problem solution. Once a module is tested carefully, it does not need to be retested before it can be used in new problem solutions. The use of modules usually reduces the length of a program, making it more readable."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " structure_charts",
+    "patterns": [
+      "Structure charts",
+      "what is structure charts",
+      "define structure chart"
+    ],
+    "responses": [
+      "A Structure Chart in software engineering and organizational theory, is a chart which shows the breakdown of a system to its lowest manageable levels."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " drivers",
+    "patterns": [
+      "drivers",
+      "define driver",
+      "what is a driver"
+    ],
+    "responses": [
+      " Driver functions are functions that are written to demonstrate operation of library-style code that solves problem. If you write a code containing some class A, driver functions would be functions that are in your code just to show that class A behaves as expected."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "library_function ",
+    "patterns": [
+      "library function",
+      "what is library function ",
+      "define library function"
+    ],
+    "responses": [
+      "Library functions in C++ are declared and defined in special files called Header Files which we can reference in our C++ programs using the include directive"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "function ",
+    "patterns": [
+      "Function definition",
+      "define function definition",
+      "what is a function"
+    ],
+    "responses": [
+      "The header includes the name of the function and tells us (and the compiler) what type of data it expects to receive (the parameters) and the type of data it will return (return value type) to the calling function or program."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "parameter list ",
+    "patterns": [
+      "parameter list",
+      "what is a parameter list",
+      "define parameter list"
+    ],
+    "responses": [
+      "A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter. This value is referred to as actual parameter or argument. The parameter list refers to the type, order, and number of the parameters of a function."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "function_body ",
+    "patterns": [
+      "Define function body",
+      "what is a function body"
+    ],
+    "responses": [
+      "The C++ standard library provides numerous built-in functions that your program can call."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "function_prototype ",
+    "patterns": [
+      "function prototype",
+      "what is a function prototype",
+      "define function prototype"
+    ],
+    "responses": [
+      "A function prototype is a declaration of the function that tells the program about the type of the value returned by the function and the number and type of arguments."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "file_scope ",
+    "patterns": [
+      "file scope",
+      "define what is file scope",
+      "what is file scope",
+      "what is file scope"
+    ],
+    "responses": [
+      "File scope: Any name declared outside all blocks or classes has file scope. It is accessible anywhere in the translation unit after its declaration."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " custom_header ",
+    "patterns": [
+      "custom header file",
+      "what is custom header file",
+      "define custom header fine"
+    ],
+    "responses": [
+      "contains the function prototypes and any related symbolic constants"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "formal_parameters ",
+    "patterns": [
+      "Formal parameters",
+      "what is formal parameters"
+    ],
+    "responses": [
+      "A function header defines the parameters required to reference a function"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "actual_parameters ",
+    "patterns": [
+      "actual parameter",
+      "what is actual parameter",
+      "define actual parameter"
+    ],
+    "responses": [
+      "Any statement that references a function must provide values that corfunction arguments respond to the parameters"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "pass_by_value",
+    "patterns": [
+      "pass by value",
+      "what is pass by value"
+    ],
+    "responses": [
+      "The call by value method of passing arguments to a function copies the actual value of an argument into the formal parameter of the function."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "storage_class ",
+    "patterns": [
+      "storage class",
+      "what is storage class "
+    ],
+    "responses": [
+      "A storage class defines the scope (visibility) and life-time of variables and/or functions within a C++ Program."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "automatic_storage_class",
+    "patterns": [
+      "automatic storage class",
+      "what is a storage auto storage class"
+    ],
+    "responses": [
+      "A storage class defines the scope (visibility) and life-time of variables and/or functions within a C++ Program."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " static_storage_class",
+    "patterns": [
+      "static storage class",
+      "what is static storage class",
+      "define static storage class"
+    ],
+    "responses": [
+      "The static storage class is used to specify that the memory for a local object should be retained during the entire program execution."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " random_seed",
+    "patterns": [
+      "random number seed",
+      "what is random number seed",
+      " define random number seed"
+    ],
+    "responses": [
+      "The srand() function in C++ seeds the pseudo random number generator used by the rand() function. The seed for rand() function is 1 by default. It means that if no srand() is called before rand(), the rand() function behaves as if it was seeded with srand(1)."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "mutator_method ",
+    "patterns": [
+      "Mutator methods",
+      " define Mutator methods",
+      " what is Mutator methods"
+    ],
+    "responses": [
+      " Mutator methods are defined as void member functions with one or more input parameter. The sole purpose of a mutator method is to mutate, or change, the value of the calling object. Input parameters allow an application to specify a new value to be assigned to an attribute."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "method ",
+    "patterns": [
+      " Method",
+      " define Method",
+      " what is Method"
+    ],
+    "responses": [
+      "A method is a function that is a member of a class. The definition of a method consists of a header followed by a statement block. The header must include the name of the class, followed by the scope resolution operator and the name of the method"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "standard_error ",
+    "patterns": [
+      "standard error",
+      "what is standard error",
+      " define standard error"
+    ],
+    "responses": [
+      " C++Object Oriented ProgrammingProgramming. std::cerr is an object of class ostream that represents the standard error stream oriented to narrow characters (of type char). It corresponds to the C stream stderr."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " file_stream_classes",
+    "patterns": [
+      "file stream classes",
+      " what is file stream classes ",
+      " define file stream classes"
+    ],
+    "responses": [
+      "C++ provides the following classes to perform output and input of characters to/from files: ofstream : Stream class to write on files. ifstream : Stream class to read from files. fstream : Stream class to both read and write from/to files."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "multiple_inheritance ",
+    "patterns": [
+      "multiple inheritance",
+      " define multiple inheritance",
+      " what is multiple inheritance"
+    ],
+    "responses": [
+      "Multiple Inheritance is a feature of C++ where a class can inherit from more than one classes. The constructors of inherited classes are called in the same order in which they are inherited."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "end_of_file",
+    "patterns": [
+      "end-of-file loop",
+      "what is end-of-file loop",
+      "define end-of-file loop"
+    ],
+    "responses": [
+      " C++ provides a special function, eof( ), that returns nonzero (meaning TRUE) when there are no more data to be read from an input file stream, and zero (meaning FALSE) otherwise"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " trailer_signals ",
+    "patterns": [
+      "trailer signal",
+      "what is trailer signal",
+      " define trailer signal"
+    ],
+    "responses": [
+      "Most commonly, we say that a trap occurs when the processor detects some exceptional condition and generates an interrupt. This type of trap cannot be handled in standard C++"
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " error_state ",
+    "patterns": [
+      "error state",
+      " define error state",
+      " what is error state"
+    ],
+    "responses": [
+      "   C++Object Oriented ProgrammingProgramming. std::cerr is an object of class ostream that represents the standard error stream oriented to narrow characters (of type char). It corresponds to the C stream stderr.   "
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "whitespace ",
+    "patterns": [
+      "whitespace",
+      " what is whitespace",
+      " define whitespace"
+    ],
+    "responses": [
+      "Search Results Featured snippet from the web Whitespace is a term that refers to characters that are used for formatting purposes. In C++, this refers primarily to spaces, tabs, and (sometimes) newlines. The C++ compiler generally ignores whitespace, with a few minor exceptions."
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": "state_flags ",
+    "patterns": [
+      "state flags",
+      " what is state flags",
+      "define state flags"
+    ],
+    "responses": [
+      "   Flag variable is used as a signal in programming to let the program know that a certain condition has met. It usually acts as a Boolean variable indicating a condition to be either true or false.   "
+    ],
+    "context": [
+      ""
+    ]
+  },
+  {
+    "tag": " summation_flag",
+    "patterns": [
+      "explain summation notation",
+      "define summation notation",
+      "what is summation notation"
+    ],
+    "responses": [
+      "Often mathematical formulae require the addition of many variables Summation or sigma notation is a convenient and simple form of shorthand used to give a concise expression for a sum of the values of a variable. Let x1, x2, x3, â€¦ xn denote a set of n numbers. "
+    ],
+    "context": [
+      ""
+    ]
+  }
+]
+}
