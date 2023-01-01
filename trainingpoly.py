@@ -107,7 +107,8 @@ class ChatbotModel:
         model = self.create_model(input_shape=(len(train_x[0]),), output_shape=len(train_y[0]))
         model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-        model.fit(train_x, train_y, epochs=epochs, batch_size=batch_size, verbose=1)
+        hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5)
+        model.save('chatbot_model.h5', hist)
         return model
 
 model = ChatbotModel('advanced')
